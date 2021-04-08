@@ -22,6 +22,8 @@ At the beginning all other tabs are hidden using **hideTab** command except for 
 
 ## Data
 
+Multivariate Data should be of **numerical type** or at least have two numerical variables for the app to be able to return descriptive statistics and the regression. it does not matter whether the data consists of discrete or continuous variables or whether there are some categorical data as long as there are at least two numerical variables.
+The data should also be in the format of **.csv** files. the **iris.csv** data set is used as a default.
 As soon as the data is uploaded in the form of a **.csv** to the app, other tabs are activated.
 in order to have a more userfriendly environment I have used the **sidebarLayout** in each of the panels using the suitable commands.
 the data is up loadable in the form of .csv using the browse button and its possible to control the number of observations to show.
@@ -31,7 +33,8 @@ the data is up loadable in the form of .csv using the browse button and its poss
 * Sepal width
 * Petal length
 * Petal width
- the **id** and **species** are the categorical attributes.
+
+ the **species** is the categorical attribute in this case.
  
 ## Visualization
 
